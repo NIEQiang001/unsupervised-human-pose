@@ -4,6 +4,8 @@
 
 The implementation of our paper *Unsupervised 3D Human Pose Representation with Viewpoint and Pose Disentanglement* (ECCV2020).
 
+<img src='./assets/intro.png' width=800>
+
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
 ```
