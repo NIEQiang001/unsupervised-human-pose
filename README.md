@@ -10,7 +10,7 @@ To train the pose encoder using corrupted human skeletons, please run
 ```python
 python train_poseAE.py
 ```
-Some extracted features can be download from [here](https://drive.google.com/drive/folders/1dkewiCbFL2rj6AZHVcn7HBqOEIhUWEr7?usp=sharing).
+Some extracted features of action datasets using the trained encoder can be download from [here](https://drive.google.com/drive/folders/1dkewiCbFL2rj6AZHVcn7HBqOEIhUWEr7?usp=sharing).
 
 
 ## License and Citation
