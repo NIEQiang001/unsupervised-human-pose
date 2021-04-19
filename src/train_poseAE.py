@@ -356,6 +356,7 @@ def model_fn(features, labels, mode, params):
     for i in range(Joint_num):
         regression_error_denorm = tf.norm(tf.subtract(pred_pos_denorm[i], pos_gt_denorm[i]), axis=1)
         MPJPE = MPJPE + regression_error_denorm
+        MPJPE = MPJPE/Joint_num
 
     MPJPE = tf.metrics.mean(MPJPE)
     metrics = {'accuracy': MPJPE}
