@@ -6,6 +6,11 @@ The implementation of our paper *Unsupervised 3D Human Pose Representation with 
 
 <img src='./assets/intro.png' width=800>
 
+# To train the pose encoder using corrupted human skeletons, please run
+'''python
+python train_poseAE.py
+'''
+
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
 ```
