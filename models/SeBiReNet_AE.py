@@ -1,5 +1,5 @@
 """
-The following codes define the SeBiReNet, the encoder and the decoder based on it.
+The following codes define the SeBiReNet, the encoder and the decoder based on the SeBiReNet.
 The tensorflow version we use is 1.14.
 Author: Qiang Nie
 
